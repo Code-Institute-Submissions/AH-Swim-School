@@ -11,7 +11,7 @@ body {
     color: #5f5b5b;
 }
 
-h2{
+h2 {
     font-family: Sriracha;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -57,10 +57,10 @@ h2{
 
 /*-----------------------------------------------------------hero-image*/
 
-#hero-image1, #hero-image2, #hero-image3 {
+#hero-image1{
     height: 450px;
     width: 100%;
-   
+    background: url(https://res.cloudinary.com/grohealth/image/upload/$wpsize_!_cld_full!,w_2560,h_1920,c_scale/v1588106919/action-athlete-blue-863988-scaled.jpg) no-repeat left center;
     
     animation-name: hero-overlap;
     animation-duration: 50s;
@@ -73,7 +73,7 @@ h2{
     width: 100%;
     overflow: hidden;
 }
-
+/*
 @keyframes hero-overlap {
     
     0% {
@@ -96,7 +96,63 @@ h2{
         background: url(https://res.cloudinary.com/grohealth/image/upload/$wpsize_!_cld_full!,w_2560,h_1920,c_scale/v1588106919/action-athlete-blue-863988-scaled.jpg) no-repeat left center;
         
     }
-    
+}*/
+
+/*--------------------------------------------------------------------------qualification*/
+
+#qualification {
+    height: 450;
+}
+
+#right-text {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+#left-pic1 {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#left-pic2 {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+.right-text-heading {
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin: 50px;
+}
+
+hr {
+    border: 1px solid #1ab3c7;
+}
+
+#intro-heading {
+    text-align: center;
+    margin: 50px 0%;
+    font-size: 200%;
+}
+
+.circle-border {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 1px solid #1ab3c7;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.circle-bg {
+    /*background: url(https://previews.123rf.com/images/vadymvdrobot/vadymvdrobot1509/vadymvdrobot150900426/45024742-portrait-of-a-happy-fitness-man-standing-with-arms-folded-at-gym-and-looking-at-camera.jpg) no-repeat right center; */
+    height: 100%;
+    border-radius: 50%
 }
 
 
