@@ -11,10 +11,9 @@ body {
     color: #5f5b5b;
 }
 
-.sticky-top {
-    position: sticky;
+header {
+    height: 80px;
 }
-
 
 #logo {
     float:  left;
@@ -200,7 +199,7 @@ hr {
 
 .row-footer {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
     background-color: #000;
 }
@@ -240,9 +239,66 @@ social-links {
 }
 
 .social-links li a i:hover {
-    background: #1ab3c7;
+    background: #339FC2;
 
 }
 
 
 
+
+/*--------------------------------------------------------Our team proflies*/
+
+#map-image {
+   margin-top: 80px;
+}
+
+#map-container1 {
+    margin-left: 50px;
+    height: 350px;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #1ab3c7;
+    float: left;
+}
+
+.adress1 p {
+    font-family: Lato;
+    float: right;
+    margin-right: 50px;
+}
+
+
+#map-container2 {
+    margin-right: 50px;
+    height: 350px;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #1ab3c7;
+    float: right;
+}
+
+.adress2 p {
+    font-family: Lato;
+    float: left;
+    margin-left: 50px;
+}
+
+#map-container3 {
+    height: 350px;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #1ab3c7;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.adress3 p {
+    font-family: Lato;
+   text-align: center;
+}
+
+#coming-soon {
+    margin-top: 55px;
+    height: 100px;
+    text-align: center;
+}
