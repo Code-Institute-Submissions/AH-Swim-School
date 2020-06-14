@@ -302,3 +302,15 @@ social-links {
     height: 100px;
     text-align: center;
 }
+
+/*--------------------------------------------------------------------gallery*/
+
+#photos {
+    clear: both;
+    column-count: 3;
+
+}
+
+#photos img {
+    width: 100%;
+}
