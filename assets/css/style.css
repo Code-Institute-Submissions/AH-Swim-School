@@ -60,11 +60,10 @@ header {
 
 /*-----------------------------------------------------------hero-image*/
 
-#hero-image1{
+#hero-image{
     height: 450px;
     width: 100%;
-    background: url(https://res.cloudinary.com/grohealth/image/upload/$wpsize_!_cld_full!,w_2560,h_1920,c_scale/v1588106919/action-athlete-blue-863988-scaled.jpg) no-repeat left center;
-    
+    background: url("https://res.cloudinary.com/grohealth/image/upload/$wpsize_!_cld_full!,w_2560,h_1920,c_scale/v1588106919/action-athlete-blue-863988-scaled.jpg") no-repeat left center;
     animation-name: hero-overlap;
     animation-duration: 50s;
     animation-iteration-count: infinite;
@@ -76,7 +75,7 @@ header {
     width: 100%;
     overflow: hidden;
 }
-/*
+
 @keyframes hero-overlap {
     
     0% {
@@ -85,7 +84,7 @@ header {
     }
 
     25% {
-        background: url(https://www.ashfordleisuretrust.co.uk/images/made/uploads/activity/shutterstock_227193361.jpg_cropped_2_1078_375_s_c1.jpg) no-repeat right center;
+        background: url(https://www.ashfordleisuretrust.co.uk/images/made/uploads/activity/shutterstock_227193361.jpg_cropped_2_1078_375_s_c1.jpg) no-repeat center center;
         
         
     }
@@ -99,7 +98,7 @@ header {
         background: url(https://res.cloudinary.com/grohealth/image/upload/$wpsize_!_cld_full!,w_2560,h_1920,c_scale/v1588106919/action-athlete-blue-863988-scaled.jpg) no-repeat left center;
         
     }
-}*/
+}
 
 /*--------------------------------------------------------------------------qualification*/
 
@@ -168,11 +167,27 @@ hr {
     margin: 0 auto;
 }
 
-.circle-bg {
-    /*background: url(https://previews.123rf.com/images/vadymvdrobot/vadymvdrobot1509/vadymvdrobot150900426/45024742-portrait-of-a-happy-fitness-man-standing-with-arms-folded-at-gym-and-looking-at-camera.jpg) no-repeat right center; */
-    height: 100%;
-    border-radius: 50%
+#left-pic1 img {
+    margin: -15px 70px 0px -15px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    
 }
+
+#left-pic2 img {
+    margin: -20px 70px 0px -15px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
 
 /*-----------------------------------------------------------picture with locations*/
 
@@ -261,7 +276,18 @@ social-links {
     float: left;
 }
 
+#map-container1 img {
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 300px;
+    width: 350px;
+    padding: 10px;
+    float: left;
+}
+
 .adress1 p {
+    font-size: 15px;
     font-family: Lato;
     float: right;
     margin-right: 50px;
@@ -277,7 +303,18 @@ social-links {
     float: right;
 }
 
+#map-container2 img {
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 300px;
+    width: 350px;
+    padding: 10px;
+    float: left;
+}
+
 .adress2 p {
+    font-size: 15px;
     font-family: Lato;
     float: left;
     margin-left: 50px;
@@ -292,7 +329,18 @@ social-links {
     margin-top: 100px;
 }
 
+#map-container3 img {
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 300px;
+    width: 350px;
+    padding: 10px;
+    float: left;
+}
+
 .adress3 p {
+    font-size: 15px;
     font-family: Lato;
    text-align: center;
 }
