@@ -8,18 +8,23 @@ body {
 }
 
 header {
-    height: 80px;
+     height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 5px 0px black;
 }
 
 #logo {
-    float:  left;
+    margin-left: 20px;
     font-size: 200%;
-    margin: 10px 0 0 20px;
     font-family: Sriracha;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #1ab3c7;
 }
+
+
 
 /*--------------------------------------------------nav*/
 
@@ -29,28 +34,26 @@ header {
     list-style-type: none;   
 }
 
-#logo, #menu {
-    line-height: 24px;
-}
+
 
 
 #nav li {
     float: right;
     margin: 30px 20px 0 0;
-    
 }
 
 #nav a {
     text-decoration: none;
     color:#1ab3c7;
+    
 }
 
 #nav a:hover {
-    border-bottom: 1px solid #2a08ec;
+    border-bottom: 4px solid  #1ab3c7;
 }
 
 .active {
-  border-bottom: 1px solid #2a08ec;  
+  border-bottom: 4px solid #1ab3c7;  
 }
 
 
@@ -61,46 +64,28 @@ header {
     height: 450px;
     width: 100%;
     background: url("https://res.cloudinary.com/grohealth/image/upload/$wpsize_!_cld_full!,w_2560,h_1920,c_scale/v1588106919/action-athlete-blue-863988-scaled.jpg") no-repeat left center;
-    animation-name: hero-overlap;
-    animation-duration: 50s;
-    animation-iteration-count: infinite;
 }
 
 
 #hero-container {
+    padding-top:  6px;
      height: 450px;
     width: 100%;
     overflow: hidden;
 }
 
-@keyframes hero-overlap {
-    
-    0% {
-        background: url(https://res.cloudinary.com/grohealth/image/upload/$wpsize_!_cld_full!,w_2560,h_1920,c_scale/v1588106919/action-athlete-blue-863988-scaled.jpg) no-repeat left center;
-        width: 100%;
-    }
-
-    25% {
-        background: url(https://www.ashfordleisuretrust.co.uk/images/made/uploads/activity/shutterstock_227193361.jpg_cropped_2_1078_375_s_c1.jpg) no-repeat center center;
-         width: 100%;
-        
-    }
-
-    50% {
-        background: url(https://www.leaderlive.co.uk/resources/images/9955610.jpg?display=1&htype=0&type=responsive-gallery) no-repeat center center;
-         width: 100%;
-    }
-
-    100% {
-        background: url(https://res.cloudinary.com/grohealth/image/upload/$wpsize_!_cld_full!,w_2560,h_1920,c_scale/v1588106919/action-athlete-blue-863988-scaled.jpg) no-repeat left center;
-         width: 100%;
-    }
-}
 
 /*--------------------------------------------------------------------------qualification*/
 
-#qualification {
-    height: 450px;
+#intro-heading {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 200%;
+}
+
+.bg-color { 
+    background-color:#1ab3c7;
+    width: 100%;
 }
 
 h2 {
@@ -110,70 +95,22 @@ h2 {
     color: #ffffff
 }
 
- .bg-color {
-     
-    margin-bottom: 20px;
-    margin-top: 30px;
-    background-color:#1ab3c7;
-    width: 100%;
-    
-}
-
-#right-text1 {
-    padding-top: 30px;
-    width: 50%;
-    clear: both;
-    float: right;
-}
-
-#left-pic1 {
-    display: inline-block;
-    padding-top: 30px;
-    width: 50%;
-    
-}
-
-#right-text2 {
-    margin-bottom: 100px;
-    padding-top: 30px;
-    width: 50%;
-    clear: both;
-    float: right;
+#right-text1 #right-text2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
     
 }
 
 
+ 
 
-#left-pic2 {
-    display: inline-block;
-    padding-top: 30px;
-    width: 50%;
-    
-}
-
-.right-text-heading1 {
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin: 50px;
-}
-
-.right-text-heading2 {
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin: 50px;
-}
 
 hr {
     border: 1px solid #1ab3c7;
 }
 
-#intro-heading {
-    text-align: center;
-    margin: 50px 0%;
-    font-size: 200%;
-}
+
 
 .circle-border {
     margin-bottom: 10px;
@@ -187,28 +124,16 @@ hr {
 
 
 
-#left-pic1 img {
-    margin: -15px 70px 0px -15px;
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    
-}
 
-#left-pic2 img {
+
+.circle-border img {
     margin: -20px 70px 0px -15px;
     width: 170px;
     height: 170px;
     border-radius: 50%;
 }
 
-#left-pic1 {
-    margin-top: 40px;
-}
 
-#left-pic2 {
-   margin-top: 40px;
-}
 
 
 
@@ -230,19 +155,27 @@ hr {
     font-family: Lato;
     color: #ffffff;
     background-color: rgba(0, 0, 0, .7);
-    width: 33%;
-    height: 225px;
-    float: left;
-    padding: 30px 0 0 10px;
     text-align: center;
     margin: 2px;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /*--------------------------------------------------------------------footer - code institute*/
 
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
+
 .row-footer {
     width: 100%;
-    margin-top: 30px;
     text-align: center;
     background-color: #000;
 }
@@ -297,6 +230,7 @@ social-links {
 }
 
 #main-container {
+    padding-top: 6px;
      height: 450px;
     width: 100%;
     overflow: hidden;
@@ -336,9 +270,11 @@ social-links {
 /*--------------------------------------------------------------------gallery*/
 
 #photos {
+    padding-top:  6px;
     clear: both;
     column-count: 3;
-    column-gap: 1px;
+    column-gap: 10px;
+    background-color:  #1ab3c7;
 }
 
 #photos img {
@@ -347,26 +283,42 @@ social-links {
 
 /* -----------------------------------------------------------------form*/
 
-.form-section {
-    clear: both;
-    background: url("https://res.cloudinary.com/grohealth/image/upload/$wpsize_!_cld_full!,w_2560,h_1920,c_scale/v1588106919/action-athlete-blue-863988-scaled.jpg");
-    background-size: cover;
-    background-position: left;
-    height: 800px;
-    width: 100%;
+/* form */
+
+#form-container {
+    padding-top: 6px;
 }
 
-.form-section h2 {
-    text-align: center;
+.form-section {
+    background: url(https://res.cloudinary.com/grohealth/image/upload/$wpsize_!_cld_full!,w_2560,h_1920,c_scale/v1588106919/action-athlete-blue-863988-scaled.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
 }
+
+.signup-form {
+  margin-top: 150px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px 30px 30px 30px;
+}
+
+.signup-form h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
 
 .text-input {
   background: transparent;
-  color: #fafafa;
+  color: #fff;
   width: 100%;
   height: 25px;
   margin: 5px 0 20px 0;
-  border: 1px solid #fafafa;
+  border: 1px solid #fff;
   border-radius: 2px;
 }
 
@@ -375,70 +327,22 @@ social-links {
 }
 
 
-#cover-text {  
-    font-size: 130%;
-    font-family: Lato;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin: 0 auto;
-    width: 600px;
-    height: 600px;
-    background-color: rgba(10, 10, 10, 0.7);
-    position: center;
 
-}
+
+
+/*end form*/
+
 
 /*----------------------------------------------------------different devices*/
 
 @media screen and (max-width: 1100px) {
 
     
-    #qualification {
-        width: 75%;
-        height: 1100px;
-        margin: 0 auto;
-    }
-
-    #left-pic2 {
-        margin-top: 300px;
-    }
-    
-
-    #dates div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        border-style: solid;
-        border-bottom-width: 1px;
-        border-bottom-color: #fff;
-        padding: 0;
-    }
-
-  
-    #photos {
-        column-count: 2;
-    }
 
 }
 
     @media screen and (max-width: 800px) {
-
-        #right-text1 {
-            width: 100%;
-            text-align: center;
-        }
-
-        #left-pic1 {
-            margin-bottom: 300px;
-            margin: 0 auto;
-        }
-
-        #right-text2 {
-            margin-top: 100px;
-            width: 100%;
-            text-align: center;
-        }
-
+        
     }
 
       
