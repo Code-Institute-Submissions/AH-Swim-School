@@ -8,7 +8,7 @@ body {
 }
 
 header {
-     height: 60px;
+     height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,10 +22,10 @@ header {
     font-family: Sriracha;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #1ab3c7;
+    color:    #1ab3c7;
     
 }
-
+ 
 
 
 /*--------------------------------------------------nav*/
@@ -57,6 +57,7 @@ header {
 .active {
   border-bottom: 2px solid #1ab3c7;  
 }
+
 
 
 
@@ -150,7 +151,7 @@ hr {
 /*-----------------------------------------------------------dates, times, venue*/
 
 #dates {
-    background: url(../images/dates-image.jpghttps://d1s9j44aio5gjs.cloudfront.net/2015/12/Core_Skills_For_Swimming_Learn_to_Swim.jpg) no-repeat center center;
+    background: url(../images/dates-image.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     overflow: hidden;
@@ -353,8 +354,6 @@ social-links {
         align-items: center;
     }
 
-
-    }
     
      #about-us p {
          width: 70%;
@@ -364,9 +363,6 @@ social-links {
         width: 70%;
     }
 
-    #photos {
-        column-count: 2;
-    }
 
     .form-section {
         background-position: right; 

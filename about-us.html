@@ -14,23 +14,32 @@
 <header>
 
   <a href="index.html"><h2 id="logo">AH Swim School</h2></a>
-    <nav>
-        <ul id="nav">
-            <li>
-                <a href="sign-up.html">Sign Up</a>
-            </li>
-            <li>
-                <a href="gallery.html">Gallery</a>
-            </li>
-            <li>
-                <a class="active"  href="about-us.html">About Us</a>
-            </li>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-        </ul>
-    
-    </nav>
+    <!-- Collapsible Navigation Bar-->
+
+		<nav class="navbar navbar-expand-md bg-transparent navbar-light menubar">
+        		
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        
+            <i class="fas fa-bars"></i>
+            </button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul id="nav" class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link menu-text" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link menu-text active" href="about-us.html">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link menu-text" href="gallery.html">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link menu-text" href="sign-up.html">Sign Up</a>
+						</li>
+					</ul>
+				</div>
+		</nav>
+
 
 </header>
 

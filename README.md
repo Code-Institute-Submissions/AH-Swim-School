@@ -5,7 +5,7 @@ The website will show you that you will be in comfortable hands with the two exp
 On the Home page it gives you a brief description on the qualifictions that the teachers obtain aswell as times, dates and venues of when
 the lessons will be taking place, all the main topics users want to know before they click onto a website and its all on the home page.
 
-You can view the live website here- 
+You can view the live website here - https://sidhowes.github.io/AH-Swim-School/
 
 
 ## UX
@@ -16,8 +16,32 @@ You can view the live website here-
 * The user can simply click on the logo to go back to the home page.
 * The user simply inserts there contact information to book onto the lessons.
 
-### Wireframes 
-[AH swim School wireframe](wireframes/wireframe-1.pdf)
+### **Wireframes** 
+
+### Home page
+
+<p align="center">
+  <img width="400" height="600" src="wireframes/wireframe1.png">
+</p>
+
+### About Us page 
+
+I adjusted this page slightly to the original plan.
+
+<p align="center">
+  <img width="400" height="600" src="wireframes/wireframe2.png">
+</p>
+
+### Gallery page
+
+Plan was simple and was always going to be a page just for several pictures.
+
+### Sign Up page 
+
+<p align="center">
+  <img width="400" height="600" src="wireframes/wireframe3.png">
+</p>
+
 
 ## Features 
 
