@@ -21,7 +21,7 @@ You can view the live website here - https://sidhowes.github.io/AH-Swim-School/
 ### Home page
 
 <p align="center">
-  <img width="400" height="600" src="wireframes/wireframe1.png">
+  <img width="400" height="600" src="wireframes/wireframe-1.png">
 </p>
 
 ### About Us page 
@@ -29,7 +29,7 @@ You can view the live website here - https://sidhowes.github.io/AH-Swim-School/
 I adjusted this page slightly to the original plan.
 
 <p align="center">
-  <img width="400" height="600" src="wireframes/wireframe2.png">
+  <img width="400" height="600" src="wireframes/wireframe-2.png">
 </p>
 
 ### Gallery page
@@ -39,7 +39,7 @@ Plan was simple and was always going to be a page just for several pictures.
 ### Sign Up page 
 
 <p align="center">
-  <img width="400" height="600" src="wireframes/wireframe3.png">
+  <img width="400" height="600" src="wireframes/wireframe-3.png">
 </p>
 
 
