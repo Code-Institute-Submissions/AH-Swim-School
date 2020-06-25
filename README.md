@@ -81,6 +81,9 @@ different venues.
 * [Google Fonts](https://fonts.google.com/): Used to get fonts used for my text _Lato_ and headings _Sriracha_. 
 * [Font Awesome](https://fontawesome.com/) - Used font awesome icons to style the links in the footer and during my home page.
 * [jQuery](https://jquery.com/) - jQuery was used within Bootstrap to create the collapsible hamburger nav bar. 
+* [W3Cschools css validator](https://jigsaw.w3.org/css-validator/validator) - Validate my css code to make sure there are no errors.
+* [W3Cschools html validator](https://validator.w3.org/) - Validate my html code to make sure there are no errors.
+
 ## Testing
 
 Using Chrome developer tools throughout the project to test how the the project looks on desktop and on smaller devices i.e
