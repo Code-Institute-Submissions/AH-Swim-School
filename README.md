@@ -57,7 +57,7 @@ until this has been corrected.
 * Mobile responsiveness: The website has been designed with both mobile, ipad and desktop users in mind. The layout
 of each page differs when viewing from mobile to desktop. 
 * Navagation: an easy to navagate bar across the top of the page that also collapses into a hamburger nav bar  when in mobile view.
-* External links: Links to **_facebook_** etc with a target=_blank attribute will open up a new tab so users will not have to leave the website.
+* External links: Links to **_facebook_** etc with a target = _blank attribute will open up a new tab so users will not have to leave the website.
 
 ### Features for the future
 
@@ -80,7 +80,7 @@ different venues.
 * [Github](https://www.github.com/): Used to host the repositories for the website.
 * [Google Fonts](https://fonts.google.com/): Used to get fonts used for my text _Lato_ and headings _Sriracha_. 
 * [Font Awesome](https://fontawesome.com/) - Used font awesome icons to style the links in the footer and during my home page.
-
+* [jQuery](https://jquery.com/) - jQuery was used within Bootstrap to create the collapsible hamburger nav bar. 
 ## Testing
 
 Using Chrome developer tools throughout the project to test how the the project looks on desktop and on smaller devices i.e
@@ -100,10 +100,11 @@ When testing onto smaller devices I found it difficult for elements to do what I
 agreed that I over complicated my code and styling and trying to do extra animations and features.
  This will be from a lack of knowledge as I am a beginner in this indusrty and with practice and experience I hope to get
  a better understanding with the code. 
+ 
 
 ## Deployment
 
-My website is hosted on Github pages, folloe=wing these steps to deploy the website.
+My website is hosted on Github pages, following these steps to deploy the website.
 
 ### Github pages
 1. Navagate to my gitbug respository -  https://github.com/Sidhowes/AH-Swim-School
